@@ -1,0 +1,50 @@
+{
+  "name": "gigs-adapter-github-jobs",
+  "version": "0.0.0",
+  "description": "A gigs adapter for GitHub's job board",
+  "keywords": [
+    "gigs",
+    "gigsadapter",
+    "job",
+    "career",
+    "opening",
+    "position",
+    "aggregator",
+    "util",
+    "utility",
+    "fetch"
+  ],
+  "bugs": "https://github.com/alebelcor/gigs-adapter-github-jobs/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alebelcor/gigs-adapter-github-jobs.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "gigs": "^1.0.0",
+    "got": "^6.3.0",
+    "lodash.flattendeep": "^4.4.0",
+    "moment": "^2.14.1"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "is-plain-obj": "^1.1.0",
+    "proxyquire": "^1.7.10"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
