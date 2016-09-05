@@ -2,6 +2,7 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [GitHub's job board](https://jobs.github.com)
 
+[![npm version](https://img.shields.io/npm/v/gigs-adapter-github-jobs.svg)](https://npmjs.org/package/gigs-adapter-github-jobs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-github-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-github-jobs)
 [![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-github-jobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-github-jobs)
 
