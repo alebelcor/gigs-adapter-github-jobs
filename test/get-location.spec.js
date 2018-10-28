@@ -14,7 +14,6 @@ test('it should return null when no location available', t => {
   t.deepEqual(null, getlocation({}));
 });
 
-
 test('it should return the location', t => {
   t.deepEqual('foo', getlocation({location: 'foo'}));
 });
