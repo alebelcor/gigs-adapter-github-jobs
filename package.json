@@ -1,6 +1,6 @@
 {
   "name": "gigs-adapter-github-jobs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gigs adapter for GitHub's job board",
   "keywords": [
     "gigs",
