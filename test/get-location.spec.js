@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getlocation from '../lib/get-location';
 
 test('it should return null when remote', t => {

@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getGigs from '../lib/get-gigs';
 
 test('it should return an array of results', t => {

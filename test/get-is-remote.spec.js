@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getIsRemote from '../lib/get-is-remote';
 
 test('it should return true', t => {

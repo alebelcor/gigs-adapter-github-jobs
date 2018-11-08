@@ -18,7 +18,7 @@ test('it should return a promise', t => {
     }
   });
 
-  t.true(typeof fetch({}).then === 'function');
+  t.true(typeof fetch({}).then === 'function'); // eslint-disable-line promise/prefer-await-to-then
 });
 
 test('it should accumulate/flatten the results', async t => {

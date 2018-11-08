@@ -7,7 +7,7 @@ const fetch = require('./lib/fetch');
 
 const ADAPTER_ENDPOINT = 'https://jobs.github.com/positions.json';
 
-module.exports = function gigsAdapterGitHubJobs(options) {
+module.exports = options => {
   options = defaultsDeep({}, options, {
     endpoint: ADAPTER_ENDPOINT,
     gotOptions: getGotOptions()

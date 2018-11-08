@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getIsFullTime from '../lib/get-is-full-time';
 
 test('it should return true', t => {
